@@ -4,7 +4,7 @@ public class IT24104294Lab5Q2 {
     public static void main(String[] args) {
         Scanner inputRef = new Scanner(System.in);
         String prize = "";
-        System.out.print("Enter the number of memberd introduced: ");
+        System.out.print("Enter the number of members introduced: ");
         int numOfMembers = inputRef.nextInt();
         if (numOfMembers >= 0) {
             switch (numOfMembers) {
@@ -29,7 +29,7 @@ public class IT24104294Lab5Q2 {
                     break;
             }
             if (prize != "none") {
-                System.out.print("Prize is a: " + prize);
+                System.out.print("\nPrize is a: " + prize);
             } else {
                 System.out.print("No Prize");
             }
